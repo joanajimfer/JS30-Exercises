@@ -1,0 +1,69 @@
+body{
+    background-image: url('./img/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Smythe', cursive;
+
+}
+.video-player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+video {
+    width: 40%;
+    height: auto;
+    border: 5px solid #3F1E0C;
+    padding: 20px;
+    background-color: #585847;
+}
+.video-progress{
+    width: 42%;
+    height: 20px;
+    background-color: #B5955B;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: 4px solid #3F1E0C;
+}
+.video-progress__bar{
+    height: 100%;
+    background-color: #90874b;
+    border-radius: 50px;
+}
+   
+.video-controls{
+    border: 4px solid #3F1E0C;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #B5955B;
+    width: 40%;
+    font-family: 'Smythe', cursive;
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    border: 3px solid #3F1E0C;
+    border-radius: 50%;
+    height: 5vh;
+    padding: 1%;
+    font-family: 'Smythe', cursive;
+    width: 3vw;
+    font-size: 1.4rem;
+    text-align: center;
+}
+footer{
+    align-self: flex-end;
+    margin: 100px 20px;
+}
+h1{
+    font-size: 3.6rem;
+    margin-bottom: 0;
+}

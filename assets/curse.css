@@ -1,0 +1,37 @@
+body{
+    background-image: url('../assets/img/castle.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Merriweather', serif;
+    overflow: hidden;
+}
+.img {
+    background-image: url('../assets/img/frog.jpg');
+    height: 36vh;
+    width: 36vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img-transform {
+    background-image: url('../assets/img/prince.jpg');
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+h3, h4{
+    text-align: center;
+}
+footer{
+    margin-bottom: 0;
+    align-self: flex-end;
+    margin: 0 4%;
+    font-size: 0.7rem;
+}
